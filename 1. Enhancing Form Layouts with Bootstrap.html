@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+    <html>
+    <head>
+    <title>Enchancing Form Layouts</title>
+        <meta charset="UTF-8">
+        <met name = "viewpoint" content="width-device-width, initial-scale-1.0">
+            <link rel="stylesheet" href="css/bootstrap.css">
+            <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <h2 class="text-center">Form Layout</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="mb-4">
+                            <label for="firstname" class="form-label">First Name:</label>
+                            <input type="text" class="form-control" id="firstname" placeholder:="Enter first name:">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="mb-4">
+                            <label for="lastname" class="form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="lastname" placeholder:="Enter last name:">
+                        </div>
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder:="Enter email:">
+                        </div>
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="mb-4">
+                            <label for="phone" class="form-label">Phone:</label>
+                            <input type="tel" class="form-control" id="phone" placeholder:="Enter phone:">
+                        </div>
+                    </div>
+                
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="container">
+            <h2 class="text-center mb-2">Contact Form</h2>
+            <form class="row g-2">
+                <div class="col-auto">
+                    <input type="text" class="form-control" id="name" placeholder="Enter name:">
+                </div>
+                <div class="col-auto">
+                    <input type="email" class="form-control" id="email" placeholder="Enter email:">
+                </div>
+                <div class="col-auto">
+                    <input type="phone" class="form-control" id="phone" placeholder="Enter phone:">
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+
+
+    <form>
+        <div>
+            <h2> EMAIL HELP</h2>
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                <div id="emailHelp">We'll never share your email with anyone else.</div>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please provide a correct email.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" id="exampleInputPassword1">
+            <div class="valid-feedback">Looks good!</div>
+            <div class="invalid-feedback">Please provide a correct password.</div>
+        </div>
+              <button type="submit">Submit</button>
+            </form>
+
+
+
+    </body>
+    </html>
